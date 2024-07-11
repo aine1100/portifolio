@@ -8,12 +8,13 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I am familiar with client collaboration ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
-    img: "/b1.svg",
+    imgClassName: "w-cover h-cover ",
+    titleClassName: "justify-end ",
+    image:"/aine.jpg",
+    img: "/bg.png",
     spareImg: "",
   },
   {
@@ -49,13 +50,13 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Currently building a next js dropshipping app called prism shop",
+    description: "The Prism shop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
+    img: "/prism.png",
+    spareImg: "/",
   },
   {
     id: 6,
@@ -72,6 +73,7 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    head: "first",
     title: "Travel bag",
     des: "Explore the wonders of our app which aims at visiting different place and enable different booking.",
     img: "/travel.png",
@@ -80,27 +82,74 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Travel bag",
-    des: "Explore the wonders of our app which aims at visiting different place and enable different booking.",
+    head: "second",
+    title: "Gymn Fitness",
+    des: "Explore the wonders of our app which aims at showcasing the gymn place where a user gets relaxed in his everyday stack",
     img: "/travel.png",
     iconLists: ["/re.svg", "/tail.svg", "/node-js.svg", "/mongo.png"],
     link: "/",
   },
   {
     id: 3,
-    title: "Travel bag",
-    des: "Explore the wonders of our app which aims at visiting different place and enable different booking.",
+    head: "third",
+    title: "Auto Wash",
+    des: "Explore the different places where you can wash your car and later manage your carwash place at less cost and get satisfied.",
     img: "/travel.png",
     iconLists: ["/re.svg", "/tail.svg", "/node-js.svg", "/mongo.png"],
     link: "/",
   },
   {
     id: 4,
-    title: "Travel bag",
-    des: "Explore the wonders of our app which aims at visiting different place and enable different booking.",
+    head: "fourth",
+    title: "Lol Shop",
+    des: "Explore our online e-commerce shop which offers people a best way to shop any product he wishes ",
     img: "/travel.png",
     iconLists: ["/re.svg", "/tail.svg", "/node-js.svg", "/mongo.png"],
     link: "/",
+  },
+];
+export const skills = [
+  {
+    id: 1,
+    head: "frontend",
+    title: "Frontend development",
+    skillList: [
+      "react",
+      "html",
+      "css",
+      "next js",
+      "tailwind css",
+      "bootstrap",
+      "react native",
+      "Php",
+      "Javascript",
+    ],
+  },
+  {
+    id: 2,
+    head: "backend",
+    title: "Backend development",
+    skillList: [
+      "Node js",
+      "Mongodb",
+      "Laravel",
+      "Mysql",
+      "Postgre sql",
+      "Python",
+      "Git",
+    ],
+  },
+  {
+    id: 3,
+    head: "design",
+    title: "Ui & Ux Design",
+    skillList: [
+      "Figma",
+      "Adobe photoshop",
+      "Adobe illustrator",
+      "Blender",
+      "Framer",
+    ],
   },
 ];
 
@@ -108,31 +157,31 @@ export const testimonials = [
   {
     quote:
       "Collaborating with Aine was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Aine's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, aine is the ideal partner.",
-    name: "landry Johnson",
+    name: "landry Sb",
     title: "Director of prism",
   },
   {
     quote:
       "Collaborating with Aine was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Aine's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, aine is the ideal partner.",
-    name: "landry Johnson",
+    name: "landry Sb",
     title: "Director of prism",
   },
   {
     quote:
       "Collaborating with Aine was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Aine's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, aine is the ideal partner.",
-    name: "landry Johnson",
+    name: "landry Sb",
     title: "Director of prism",
   },
   {
     quote:
       "Collaborating with Aine was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Aine's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, aine is the ideal partner.",
-    name: "landry Johnson",
+    name: "landry Sb",
     title: "Director of prism",
   },
   {
     quote:
       "Collaborating with Aine was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Aine's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, aine is the ideal partner.",
-    name: "landry Johnson",
+    name: "landry Sb",
     title: "Director of prism",
   },
 ];
@@ -180,25 +229,12 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Frontend Developer",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Ui & Ux designer",
+    desc: "Assisted in the designing of a web-based platform using Figma, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
-  {
-    id: 3,
-    title: "Frontend Developer",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-  {
-    id: 4,
-    title: "Frontend Developer",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
+
 ];
 
 export const socialMedia = [
