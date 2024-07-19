@@ -85,8 +85,8 @@ export const projects = [
     head: "second",
     title: "Gymn Fitness",
     des: "Explore the wonders of our app which aims at showcasing the gymn place where a user gets relaxed in his everyday stack",
-    img: "/travel.png",
-    iconLists: ["/re.svg", "/tail.svg", "/node-js.svg", "/mongo.png"],
+    img: "/gym.png",
+    iconLists: ["/figma.png"],
     link: "/",
   },
   {
@@ -94,8 +94,9 @@ export const projects = [
     head: "third",
     title: "Auto Wash",
     des: "Explore the different places where you can wash your car and later manage your carwash place at less cost and get satisfied.",
-    img: "/travel.png",
-    iconLists: ["/re.svg", "/tail.svg", "/node-js.svg", "/mongo.png"],
+    img: "/auto.png",
+    iconLists: ["/figma.png"],
+
     link: "/",
   },
   {
@@ -103,8 +104,9 @@ export const projects = [
     head: "fourth",
     title: "Lol Shop",
     des: "Explore our online e-commerce shop which offers people a best way to shop any product he wishes ",
-    img: "/travel.png",
-    iconLists: ["/re.svg", "/tail.svg", "/node-js.svg", "/mongo.png"],
+    img: "/shop.png",
+    iconLists: ["/figma.png"],
+
     link: "/",
   },
 ];
