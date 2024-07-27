@@ -1,9 +1,10 @@
 "use client";
 
-import { FaLocationArrow } from "react-icons/fa6";
+import { Fa500Px, FaDesktop, FaLocationArrow, FaManatSign, FaMobile, FaPhone, FaWebflow } from "react-icons/fa6";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
+import MagicButton from "./MagicButton";
 
 const RecentProjects = () => {
   return (
@@ -13,15 +14,27 @@ const RecentProjects = () => {
         <span className="text-purple">recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
+        <MagicButton title="All" icon={<FaManatSign />} position="right" />
+        <MagicButton
+          title="Web Development"
+          icon={<FaWebflow />}
+          position="right"
+        />
+        <MagicButton title="Web Design" icon={<FaDesktop />} position="right" />
+        <MagicButton
+          title="Mobile Development"
+          icon={<FaMobile />}
+          position="right"
+        />
+      </div>
+
+      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
           >
-            <PinContainer
-              title={item.head}
-              href="https://twitter.com/"
-            >
+            <PinContainer title={item.head} href="https://twitter.com/">
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"

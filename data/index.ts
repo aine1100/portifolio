@@ -8,11 +8,11 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I am familiar with client collaboration ",
+    title: "I am young and innovative software developer with 1+ year of experience ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-cover h-cover ",
-    titleClassName: "justify-end ",
+    titleClassName: "justify-center items-center text-center ",
     image:"/aine.jpg",
     img: "/bg.png",
     spareImg: "",
